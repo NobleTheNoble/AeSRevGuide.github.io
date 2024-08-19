@@ -21,13 +21,14 @@
 
         <div class="chapter">
             <h2>I. Overview</h2>
-            <p>This guide will cover all about Aether Sage's new changes in the revision patch, and will go in-depth in the changes regarding her playstyle.</p>
+            <p>This guide will cover all about Aether Sage's new changes in the revision patch, and will go in-depth in the changes regarding her playstyle.</p>    
             <p>Type: <span style="--color-param: var(--magical);">Magical DPS</span><img src="images/magclassicon.png" class="icon"></p>
             <p>Collection bonus: Additional Flat Magical Attack Power</p>
         </div>
 
         <div class="chapter">
             <h2>II. Pros / Cons</h2>
+            <h3>Pros</h3>
             <ol>
                 <li>
                     <p>
@@ -36,15 +37,14 @@
                     <p>
                         Damage wise you are fit to carry most of raids / PvE Content. Your damage is consistent across the board; Bigger bosses are preferred, 
                         but AeS can manage just fine on all boss sizes.
-                    </p>
-                    <p>
+
                         Numbers wise it’s not in the peak levels of <img src="images/tp.png" class="icon"> or <img src="images/fp.png" class="icon">, but it's still good regardless. 
                     </p>
                 </li>
                 <li>
                     <p>
                         Clearing / Range
-                    </p>
+                    </p>   
                     <p>
                         Majority of your main skills 
                         <img src="images/MeteorCall.png" class="icon">
@@ -53,10 +53,563 @@
                         Can cover up most of the screen with their big ranges / hitbox. Your solo clearing is very good because of this.
                     </p>
                 </li>
+                <li>
+                    <p>Easier Mechanics</p>
+                    <p>
+                        Having <img src="images/teleport.png" class="icon"> and <img src="images/Meteorshower.png" class="icon">, 
+                        we can have an easier time in some mechanics: Using <img src="images/hyperaccel.webp" class="icon"> then teleporting to the top, 
+                        then using <img src="images/Meteorshower.png" class="icon"> to suspend ourselves in the air. (Rosso CM, 16-3, 18-4-2 mark).  
+                        Rosso pinwheel mechanic can also be breezed through by timing <img src="images/teleport.png" class="icon"> properly.
+                    </p>
+                </li>
+            </ol>
+
+            <h3>Cons</h3>
+            <ol>
+                <li>
+                    <p>Slow</p>
+                    <p>
+                        Arguably her biggest weakness, the pros above regarding damage and clearing are offset by almost all of our skill taking 50 years to cast. This makes you very slow in terms of speedrunning / fast clearing
+                        dungeons.
+                    </p>
+                    <p>
+                        This extends to you needing skill hits to build up stacks to access our powerful skills. Chances are in speed parties by the time you have collected enough stacks, the room has been cleared / boss has
+                        been killed. Classes with faster clearing than you can also deny you the opportunity to get stacks for yourself in the first place.
+                    </p>
+
+                </li>
+
+                <li>
+                    <p>Cooldowns</p>
+                    <p>
+                        The class literally needs <img src="images/demersio.png" class="icon"> / <img src="images/avarice.png" class="icon"> / <img src="images/prophetess.png" class="icon"> to function properly. 
+                        <span class="modskill">
+                            <img src = "images/force.webp" class="modicon">
+                            <img src ="images/meditation.png" class="skill">
+                        </span> 
+                        is not enough for AeS, she needs dedicated CDR buffers to enable to bring out her full damage potential.
+                        An AeS with at least one of the aformentioned classes will feel completely different compared to one without; Otherwise majority of the time you will be staring at your cooldowns. 
+                    </p>
+                </li>
+                <li>
+                    <p>Alcoholic</p>
+                    <p>
+                    Double Casting <img src="images/doublecasting.webp" class="icon"> passive causes our main Bravery skills to reach 400 mp per cast, and our Strength skills to be 270+ mp per cast. Stack up on plenty of pots, and ensure you have Ice Burner buff cause you will be burning
+                    through them a lot. Kusharta's Mask <img src="images/kushartamask.png" class="icon"> becomes somewhat of a viable option for us because of this.  
+                    </p>
+                </li>
+                <li>
+                    <p>High ERP investment</p>
+                    <p>
+                        As a result of the 2 cons above, AeS needs that 550 ERP level to invest into MP cost reduction and Additional Max MP.
+                    </p>
+                    </li>
             </ol>
         </div>
         
+        <div class="chapter">
+            <h2>III. Double Casting <img src="images/doublecasting.webp" class="icon"> </h2>
+            <p>
+                4 of your skills have a passive that upon pressing the skill key twice, you automatically cast a second skill, free of cooldown (but still with mp cost). The skills are:
+            </p>
 
+            <table>
+                <tr>
+                    <th>First Skill</th>
+                    <th>Second Skill</th>
+                    <th>Total MP cost</th>
+                </tr>
+                <tr>
+                    <td>
+                        <img src ="images/MeteorCall.png" class="icon">
+                        Meteor Call
+                    </td>
+                    <td>
+                        <img src ="images/frostbarrage.webp" class="icon">
+                        Frost Barrage
+                    </td>
+                    <td>400 MP</td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="images/iciclespear.webp" class="icon">
+                        Icicle Spear
+                    </td>
+                    <td>
+                        <img src="images/circleflame.webp" class="icon" alt="" srcset="">
+                        Circle Flame
+                    </td>
+                    <td>400 MP</td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="images/guststorm.webp" class="icon">
+                        Gust Storm
+                    </td>
+                    <td>
+                        <img src="images/LightningShower.png" class="icon" alt="" srcset="">
+                        Lightning Shower
+                    </td>
+                    <td>370 MP</td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="images/LightningBolt.png" class="icon" alt="" srcset="">
+                        Lightning Bolt
+                    </td>
+                    <td>
+                        <img src="images/cyclone.webp" class="icon" alt="" srcset="">
+                        Cyclone</td>
+                    <td>275 / 300 MP</td>
+                </tr>
+            </table>
+
+            <p>
+                Notable changes here are that:
+            </p>
+
+            <ul>
+                <li>
+                    <img src="images/guststorm.webp" class="icon" alt="" srcset=""> now chains to <img src="images/LightningShower.png" class="icon"> instead of <img src="images/blizzardshower.webp" class="icon" alt="">: this means we can freely use this skill without worrying about the freeze count.
+                </li> 
+                <li>
+                    Second is the addition of <img src="images/cyclone.webp" alt="" class="icon"> to <img src="images/LightningBolt.png" class="icon" alt="">, which is very welcome and is very important to our next passive.
+                </li>
+                <li>
+                    The first skill cooldown is now also increased to 30% for 10%.
+                </li>
+            </ul>
+
+        </div>
+        
+        <div class="chapter">
+            <h2>
+                IV. Sage's Wisdom
+                <img src="images/sagewisdom.webp" class="icon" alt="" srcset="">
+            </h2>
+            <p>
+                Aether Sage's new reworked passive, and the thing largely responsible for why she is as strong as is right now. The passive itself is a lot of text, but we can break it down into parts:
+            </p>
+
+            <p>
+                1. Whenever you hit an enemy with certain skills, there will be certain "elements" spawning out. These behave similar to Celestia's Aquarius, but can only be picked up by yourself. 
+                There are 3 kinds of elements here: 
+                <span style="--color-param: var(--fire);">Fire</span>, 
+                <span style="--color-param: var(--ice);">Ice</span> and 
+                <span style="--color-param: var(--lightning);">Lightning</span>. 
+                The number of elements spawned is determined from the number of hits the skill does.
+            </p>
+
+            <p>The number of elements collected can be tracked in your buff list like this:  <img class="stacks" src="images/stacks.png" alt=""></p>
+
+            <p>Here is a chart denoting each skill, and the number of elements they spawn:</p>
+            
+            <table>
+                <tr>
+                    <th style="--width: 15%">Element</th>
+                    <th style="--width: 30%;">Skill</th>
+                    <th style="--width: 15%"># of Element generated</th>
+                    <th>Image</th>
+                </tr>
+
+                <tr>
+                <!--FIRE SKILLS-->
+                    <td rowspan="6">
+                        <img src="images/status_fire.png" alt="" srcset="">
+                        <span style="--color-param: var(--fire);">Fire</span>
+                    </td>
+                    <td>
+                        <img src="images/MeteorCall.png" class="icon" alt="" srcset="">
+                        Meteor Call
+                    </td>
+                    <td class="cell-center">9-10</td>
+                    <td rowspan="6" class="cell-center">
+                        <img src="images/fire_element.png" class="display">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <img src="images/guststorm.webp" class="icon" alt="" srcset="">
+                        Gust Storm
+                    </td>
+                    <td class="cell-center">11</td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <img src="images/Meteorshower.png" class="icon" alt="" srcset="">
+                        Meteor Shower
+                    </td>
+                    <td class="cell-center">8-50</td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <img src="images/circleflame.webp" class="icon" alt="" srcset="">
+                        Circle Flame
+                    </td>
+                    <td class="cell-center">1</td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <img src="images/blazestep.webp" class="icon" alt="" srcset="">
+                        Blaze Step
+                    </td>
+                    <td class="cell-center">33</td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <span class="modskill">
+                            <img src = "images/modicon.png" class="modicon">
+                            <img src ="images/blazestep.webp" class="skill">
+                        </span>
+                        
+                        [Mod] Blaze Step
+                    </td>
+                    <td class="cell-center">50</td>
+                </tr>
+
+                <!--ICE SKILLS-->
+                <tr>
+                    <td rowspan="4">
+                        <img src="images/status_ice.png" class="icon">
+                        <span style="--color-param: var(--ice);">Ice</span>
+                    </td>
+                    </td>
+                    <td>
+                        <img src="https://elwiki.net/wiki/images/c/c2/AishaS9.png" class="icon">
+                        Blizzard Shower
+                    </td>
+                    <td class="cell-center">1</td>
+                    <td rowspan="4" class="cell-center">
+                        <img src="images/ice_element.png" class="display">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <img src="images/frostbarrage.webp" class="icon">
+                        Frost Barrage
+                    </td>
+                    <td class="cell-center">8</td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <span class="modskill">
+                            <img src="images/modicon.png" class="modicon">
+                            <img src="images/frostbarrage.webp" class="skill">
+                        </span>
+                        [Mod] Frost Barrage
+                    </td>
+                    <td class="cell-center">12-14</td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <img src="images/iciclespear.webp" class="icon">
+                        Icicle Spear
+                    </td>
+                    <td class="cell-center">2</td>
+                </tr>
+
+                <!--LIGHTNING SKILLS-->
+                <tr>
+                    <td rowspan="5">
+                        <img src="images/status_lightning.png" class="icon" alt="">
+                        <span style="--color-param: var(--lightning);">Lightning</span> 
+                    </td>
+                    <td>
+                        <img src="images/LightningBolt.png" class="icon" alt="">
+                        Lightning Bolt
+                    </td>
+                    <td class="cell-center">1</td>
+                    <td rowspan="5" class="cell-center">
+                        <img src="images/lightning_element.png" class="display" alt="">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <img src="images/cyclone.webp" class="icon" alt="">
+                        Cyclone
+                    </td>
+                    <td class="cell-center">5-11</td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <span class="modskill">
+                            <img src="images/modicon.png" class="modicon">
+                            <img src="images/cyclone.webp" class="skill" alt="">
+                        </span>
+                        [Mod] Cyclone
+                    </td>
+                    <td class="cell-center">18</td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <img src="images/LightningShower.png" class="icon" alt="">
+                        Lightning Shower
+                    </td>
+                    <td class="cell-center">18</td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <span class="modskill">
+                            <img src="images/modicon.png" class="modicon">
+                            <img src="images/LightningShower.png" class="skill" alt="">
+                        </span>
+                        [Mod] Lightning Shower
+                    </td>
+                    <td class="cell-center">5-9</td>
+                </tr>
+            </table>
+
+            <p>2. 5 of the  
+                <span style="--color-param: var(--fire);">Fire</span>, 
+                <span style="--color-param: var(--ice);">Ice</span> and  
+                <span style="--color-param: var(--lightning);">Lightning</span> 
+                element stacks are used whenever you use
+                <img src ="https://elwiki.net/wiki/images/2/26/MeteorCall.png" class="icon"> 
+                <img src="https://elwiki.net/wiki/images/9/90/EMTrans6.png" class="icon">
+                <img src="https://elwiki.net/wiki/images/1/12/AishaS29.png" class="icon" alt="">
+            </p>
+        
+            <p>We'll call these skills <i>"Empowered"</i>. These skills are completely new, and deal more damage than the regular versions, and also generate their own number of elements on hit:</p>
+
+            <table>
+                <tr>
+                    <th style="--width: 20%">Skill</th>
+                    <th style="--width: 20%">Element stack being used</th>
+                    <th style="--width: 15%"># of Element Generated</th>
+                    <th>Skill Demo</th>
+                </tr>
+                <tr>
+                    <td>
+                        <img src ="images/MeteorCall.png" class="icon">
+                        Meteor Call
+                    </td>
+                    <td>
+                        <img src ="images/status_fire.png" class="icon">
+                        <span style="--color-param: var(--fire);">Fire</span> 
+                    </td>   
+                    <td class="cell-center">
+                        9
+                    </td>
+                    <td>
+                        <img src="images/EmpoweredMeteorCall.png" style="max-height: 360px; max-width:640px">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="images/LightningBolt.png" class="icon" alt="">
+                        Lightning Bolt
+                    </td>
+                    <td>
+                        <img src="images/status_lightning.png" class="icon" alt="">
+                        <span style="--color-param: var(--lightning);">Lightning</span> 
+                    </td>
+                    <td class="cell-center">
+                        6   
+                    </td>
+                    <td>
+                        <img src="images/EmpoweredLightningBolt.png" style="max-height: 360px; max-width:640px">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="images/iciclespear.webp" class="icon">
+                        Icicle Spear
+                    </td>
+                    <td>
+                        <img src="images/status_ice.png" class="icon">
+                        <span style="--color-param: var(--ice);">Ice</span> 
+                    </td>
+                    <td class="cell-center">
+                        2
+                    </td>
+                    <td>
+                        <img src="images/EmpoweredIcicleSpear.png" style="max-height: 360px; max-width:640px">
+                    </td>
+                </tr>
+
+            </table>
+
+            <p>
+                3. Whenever you reach 30 stacks on all 3 elements, Aether Sage will consume all those elements and will give you a buff called "Aether" for 30 seconds.
+                <img src="images/aether.png" class="icon">
+                The duration of this buff will do refresh once you collect another 30 stacks on all 3 elements. 
+            </p>
+
+            <p>
+                This buff changes a few mechanics on this passive:
+            </p>
+            <ul>
+                <li>Your <i>Empowered Skils</i> transform into <i>Aether Applied</i> skills.</li>
+                <li>Visually they are just the same as Empowered, albeit recolored to pink.</li>
+                <li>These skills no longer consume element stacks per cast, but will still spawn you elements to collect.</li>
+                <li>Behavior wise <img src="images/LightningBolt.png" class="icon" alt="" srcset="">moves much slower on hit.</li>
+            </ul>
+
+           <p><b>Most importantly, they practically do double the damage compared to Empowered Skills.</b></p>
+            <table>
+                <tr>
+                    <th style="--width: 20%">Skill</th>
+                    <th style="--width: 15%"># of Element Generated</th>
+                    <th>Skill Demo</th>
+                </tr>
+                <tr>
+                    <td>
+                        <img src ="images/MeteorCall.png" class="icon">
+                        Meteor Call
+                    </td>
+                   
+                    <td class="cell-center">
+                        9
+                    </td>
+                    <td class="cell-center">
+                        <img src="images/AetherAppliedMeteorCall.png" style="max-height: 360px; max-width:640px">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="images/LightningBolt.png" class="icon" alt="">
+                        Lightning Bolt
+                    </td>
+                    
+                    <td class="cell-center">
+                        6   
+                    </td>
+                    <td class="cell-center">
+                        <img src="images/AetherAppliedLightningBolt.png" style="max-height: 360px; max-width:640px">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="images/iciclespear.webp" class="icon">
+                        Icicle Spear
+                    </td>
+                    <td class="cell-center">
+                        2
+                    </td>
+                    <td class="cell-center">
+                        <img src="images/AetherAppliedIcicleSpear.png" style="max-height: 360px; max-width:640px">
+                    </td>
+                </tr>
+            </table>
+
+            <p>At this point, her playstyle is pretty much clear cut:</p>
+            <ol>
+                <li>
+                    Keep up durations of 
+                    <span class="modskill">
+                        <img src="images/force.webp" class="modicon">
+                        <img src="images/meditation.webp" class="skill" alt="">
+                    </span>
+                    and 
+                    <img src="images/aura.webp" class="icon" alt="" srcset="">
+                </li>
+                <li>
+                    If not yet in <img src="images/aether.png" class="icon">
+                    spam skills to generate elemental stacks; preferrably the ones that give plenty of hits per cast (<img src="images/frostbarrage.webp" class="icon" alt="" srcset="">, <img src="images/guststorm.webp" class="icon">, <img src="images/LightningShower.png" class="icon" alt="">, etc.)
+                </li>
+                <li>
+                    If <img src="images/aether.png" class="icon"> is active
+                    Spam Aether Applied 
+                    <img src ="images/MeteorCall.png" class="icon">
+                    <img src="images/iciclespear.webp" class="icon">
+                    <img src="images/LightningBolt.png" class="icon" alt="">
+                </li>
+            </ol>
+
+        </div>
+
+        <div class="chapter">
+            <h2>V. Setups</h2>
+            <h3>Skill Build</h3>
+            <img src="images/SkillSetup.png" alt="">
+            <h3>Armors</h3>
+            <p>Obviously stack <img src="images/iciclespear.webp" class="icon">Icicle Spear<img src="images/iciclespear.webp" class="icon"><p>
+            <p>Aether Sage prefers reset lines for spamming skills and helps alleviate the cooldown issues.</p>
+            <p>Thus, we take Cerulean / Reset lines for Tenebrous.</p>
+            <p>The rest of the armors are the usual standard builds for DPS. </p>
+            <h3>ERP</h3>
+            <p>ASD > Polarize > Adapt > Boss Damage > Cooldown Reduction > Max MP increase > MP Cost Reduction</p>
+            <h3>Skill traits</h3>
+            <p>I wont list all of her skills here; just the ones that we use.</p>
+            <ul>
+                <li><img src="images/aura.webp" class="icon" alt="" srcset=""><img src="images/meditation.png" class="icon" alt=""> Killing Blow</li>
+                <li>
+                    <img src="images/circleflame.webp" class="icon" alt="">
+                    <img src="images/LightningShower.png" class="icon" alt="">
+                    <img src="images/frostbarrage.webp" class="icon" alt="">
+                    <img src="images/MeteorCall.png" class="icon" alt="">
+                    <img src="images/iciclespear.webp" class="icon" alt="">
+                    <img src="images/LightningBolt.png" class="icon" alt="">
+                    Heavy
+                </li>
+                <li>
+                    <img src="images/guststorm.webp" class="icon" alt="">
+                    <img src="images/Meteorshower.png" class="icon" alt="">
+                    Empowered
+                </li>
+                <li>
+                    <img src="images/aura.webp" class="icon" alt="">
+                    <img src="images/meditation.png" class="icon" alt="">
+                    Killing Blow
+                </li>
+                <li>
+                    <img src="images/blazestep.webp" class="icon" alt="">
+                    <img src="images/cyclone.webp" class="icon">
+                    Useful
+                </li>
+            </ul>
+            <h3>Collection Synergy</h3>
+            <p>It would be better to refer to some known guides here. Just follow First Path synergies, However you should stick to Adapt Synergy if you cannot reach adaptation cap yet.</p>
+        </div>
+
+        <div class="chapter">
+            <h2>VI. Party Setups</h2>
+            <p>
+                Aether Sage is highly party dependent; If she does not have her cdr buffers her damage will suffer a lot, so great importance has to be 
+                made when it comes to creating parties.
+            </p>
+
+            <h3>Non-Negotiables</h3>
+            <img src="images/demersio.png" alt="" class="icon">
+            <img src="images/prophetess.png" class="icon">
+            <img src="images/avarice.png" class="icon" alt="">
+            <p>They are here for 1 reason alone, these classes give 1.7/1.5/1.5 Cooldown Acceleraion. These are some of the highest available 
+                Numbers in terms of CDA; Combine these with their healing both MP / HP to assist you in managing your mana / pots and survive in raids;
+                They are a need for any AeS to bring out her full power.
+            </p>
+            <p>Note though that if you already have a <img src="images/demersio.png" class="icon" alt=""> in your party, there is no need to get an 
+                <img src="images/avarice.png" class="icon">; It would be better to get another Magical Buffer instead. The inverse applies as well.
+            </p>
+            <p>If you do have <img src="images/prophetess.png" class="icon"> Then feel free to get one of the two.</p>
+
+            <h3>Magical Buffers</h3>
+            <img src="images/surya.png" class="icon" alt="">
+            <img src="images/radiantsoul.png" class="icon" alt="">
+            <img src="images/celestia.png" class="icon" alt="">
+            <img src="images/bluhen.png" class="icon" alt="">
+            <img src="images/primeoperator.png" class="icon" alt="">
+            <img src="images/overmind.png" class="icon" alt="">
+            <p>Good Magical Buffers to bring. All of them have an assortment of Buffs, Debuffs, CDR, Healing And Super Armor for your needs.</p>
+            <p>
+                There are some classes here that do reduce your cooldowns, notably 
+                <img src="images/radiantsoul.png" class="icon" alt="">
+                <img src="images/celestia.png" class="icon" alt="">
+                I dont have them as higher up since <img src="images/celestia.png" class="icon" alt=""> only offers 1.2x CDA, and <img src="images/radiantsoul.png" class="icon" alt=""> only resets, which is welcome for us, but CDA is unfortunately our main priority.
+            </p>
+            <p>Rest of the cast is filler. Feel free to add based on their buffs: Maybe heals / Shred / SA / CDA, etc.</p>
+        </div>
 
         <script src="" async defer></script>
     </body>
